@@ -1,0 +1,160 @@
+@import 'global';
+@import 'vars';
+
+//start header..........................
+// end header...........................
+.header {
+  &__top {
+    background-color: $bg;
+  }
+
+  &__info {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__info-btn {
+    margin-left: auto;
+    margin-right: 50px;
+    a {
+      background-color: $blue;
+      color: #fff;
+      padding: 11px 18px;
+      box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+      border-radius: 30px;
+      font-size: 14px;
+    }
+  }
+
+  &__info-icons {
+    margin-right: 45px;
+  }
+}
+
+.lnr {
+  position: relative;
+  font-size: 20px;
+  color: #7e8fa1;
+  & + .lnr {
+    margin-left: 30px;
+  }
+  span {
+    font-size: 14px;
+    color: #fff;
+    padding: 6px 9px;
+    position: absolute;
+    top: -18px;
+    border-radius: 50%;
+  }
+}
+.lnr-alarm {
+  span {
+    right: -13px;
+    background-color: #ff6a6c;
+  }
+}
+.lnr-envelope {
+  span {
+    right: -14px;
+    background-color: #62d03b;
+  }
+}
+.lnr-cart {
+  span {
+    right: -23px;
+    background-color: $blue;
+  }
+}
+.office {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__avatar {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  &__info {
+    a {
+      display: block;
+    }
+  }
+
+  &__info-title {
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  &__info-price {
+    color: $blue;
+    font-size: 15px;
+  }
+}
+.menu {
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__nav {
+  }
+
+  &__nav-list {
+    li {
+      display: inline-block;
+      & + li {
+        margin-left: 30px;
+      }
+    }
+    a {
+      text-transform: uppercase;
+      color: #333;
+      font-size: 15px;
+      font-weight: 500;
+      transition: all 0.3s;
+      &:hover {
+        border-bottom: 1px solid #000;
+        font-size: 16px;
+      }
+    }
+  }
+
+  &__sarch {
+    display: flex;
+    align-items: center;
+    position: relative;
+    input {
+      padding-left: 25px;
+      padding-right: 80px;
+      min-height: 45px;
+      min-width: 360px;
+      border-radius: 30px;
+      border: 1px solid #d9dfe5;
+      &::placeholder {
+        color: #898f96;
+        font-size: 15px;
+      }
+    }
+    button {
+      position: absolute;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 15px;
+      color: #fff;
+      background-color: $blue;
+      right: 0;
+    }
+  }
+}
+
+// end header...........................
+
+//start header..........................
+// end header...........................
