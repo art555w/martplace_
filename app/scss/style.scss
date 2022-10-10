@@ -283,5 +283,47 @@
 
 // end content...........................
 
+//start advantage..........................
+.advantage {
+  background-color: $bg;
+  &__inner {
+    padding-top: 180px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    max-width: 360px;
+    text-align: center;
+    padding: 40px 35px 50px;
+    &:hover {
+      border-radius: 4px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+    }
+  }
+
+  &__image {
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0px auto 40px;
+  }
+
+  &__item-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  &__item-text {
+    line-height: 30px;
+  }
+}
+
+// end advantage...........................
+
 //start header..........................
 // end header...........................
