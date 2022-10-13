@@ -5,4 +5,5 @@ $(function () {
     nextArrow:
       '<button class="slick-next slick-arrow"><span class="lnr lnr-chevron-right"></span>></button>',
   })
+  const mixer = mixitup('.products__inner')
 })
