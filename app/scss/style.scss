@@ -193,6 +193,21 @@
   }
 
   &__search {
+    //  padding: 40px;
+  }
+  &__search-form {
+  }
+  &__search-select {
+  }
+}
+
+// start search...........................
+
+.search {
+  text-align: center;
+  position: relative;
+  &__form {
+    z-index: 5;
     position: absolute;
     bottom: -67px;
     min-height: 130px;
@@ -200,22 +215,12 @@
     width: 100%;
     background-color: #fff;
     border-radius: 6px;
-    //  padding: 40px;
-    button {
-      max-width: 220px;
-      width: 100%;
-      padding: 19px;
-      background-color: $blue;
-      color: #fff;
-      border-radius: 4px;
-      position: absolute;
-      right: 0;
-      margin-right: 50px;
-    }
   }
-  &__search-form {
+
+  &__form-box {
     text-align-last: left;
     margin: 40px;
+    //  position: absolute;
     input {
       max-width: 810px;
       width: 100%;
@@ -229,8 +234,20 @@
         color: #676767;
       }
     }
+    button {
+      max-width: 220px;
+      padding: 19px 65px;
+      background-color: $blue;
+      color: #fff;
+      border-radius: 4px;
+      position: absolute;
+      right: 0;
+      margin-right: 50px;
+      text-align: center;
+    }
   }
-  &__search-select {
+
+  &__form-select {
     max-width: 195px;
     width: 100%;
     border-left: 1px solid #dcdcdc;
@@ -247,39 +264,38 @@
     }
   }
 }
+
 .behind {
-  //   position: relative;
-  width: 100%;
-  li + li {
-    max-width: 1080px;
-    bottom: 55px;
-    left: 220px;
-    min-height: 40px;
-  }
+  display: flex;
+  justify-content: center;
   &__shadow {
+    height: 50px;
     max-width: 1110px;
     width: 100%;
-    min-height: 26px;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.502;
-    border-radius: 6px;
     position: absolute;
-    bottom: 56px;
-    left: 205px;
+    top: -13px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 6px;
+    padding: 0px 15px;
+  }
+  li + li {
+    max-width: 1080px;
+    top: -26px;
+    padding: 0px 30px;
   }
 }
 
-// .Rectangle_238_copy_2 {
-//   border-radius: 6px;
-//   background-color: rgb(255, 255, 255);
-//   opacity: 0.502;
-//   position: absolute;
-//   left: 420px;
-//   top: 810px;
-//   width: 1080px;
-//   height: 135px;
-//   z-index: 729;
-// }
+.Rectangle_238_copy_2 {
+  opacity: 0.502;
+  position: absolute;
+  left: 420px;
+  top: 810px;
+  width: 1080px;
+  height: 135px;
+  z-index: 729;
+}
+
+// end search...........................
 
 // end content...........................
 
