@@ -825,8 +825,52 @@
 
 // end header...........................
 
-//start header..........................
-// end header...........................
+//start options..........................
+
+.options {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+
+  &__item {
+    padding: 100px 15px;
+    width: 100%;
+    min-height: 560px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+
+  &__item-icon {
+    max-width: 120px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    margin-bottom: 55px;
+  }
+  .options__icon-shop {
+    width: 100px;
+  }
+
+  &__item-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  &__item-text {
+    line-height: 30px;
+    max-width: 585px;
+    margin: 0 auto 50px;
+  }
+}
+
+// end options...........................
 
 //start header..........................
 // end header...........................
