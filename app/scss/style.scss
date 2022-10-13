@@ -1012,5 +1012,51 @@
 
 // end news...........................
 
+//start feedback..........................
+
+.feedback {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    padding: 60px 15px;
+    width: 50%;
+    text-align: center;
+  }
+
+  &__item-icon {
+    width: 150px;
+    height: 120px;
+    margin: 0px auto 35px;
+  }
+
+  &__item-text {
+    font-size: 24px;
+    color: #000;
+  }
+
+  &__item-link {
+    color: #0674ec;
+  }
+
+  &__item-support {
+    border-left: 1px solid $bg;
+    .feedback__item-icon {
+      width: 155px;
+      height: 117px;
+    }
+  }
+}
+
+// end feedback...........................
+
+//start header..........................
+// end header...........................
+
+//start header..........................
+// end header...........................
+
 //start header..........................
 // end header...........................
