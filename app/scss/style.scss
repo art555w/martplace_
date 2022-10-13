@@ -1052,8 +1052,38 @@
 
 // end feedback...........................
 
-//start header..........................
-// end header...........................
+//start join..........................
+
+.join {
+  padding: 110px 0;
+  background-image: -webkit-linear-gradient(
+    180deg,
+    rgb(13, 62, 242) 0%,
+    rgb(64, 48, 201) 46%,
+    rgb(114, 33, 160) 100%
+  );
+  opacity: 0.9;
+  &__inner {
+    text-align: center;
+    color: #fff;
+  }
+
+  &__title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    font-size: 18px;
+    margin-bottom: 75px;
+    color: #e7e7e7;
+  }
+
+  &__button {
+  }
+}
+
+// end join...........................
 
 //start header..........................
 // end header...........................
