@@ -755,4 +755,84 @@
 // end info...........................
 
 //start header..........................
+
+.choose {
+  padding: 120px 0;
+  background-color: #fdfdfd;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    max-width: 360px;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+    padding: 55px 16px 60px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  &__item-num {
+    font-size: 48px;
+    color: rgba(92, 135, 248, 0.2);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: 300;
+  }
+
+  &__item-icon {
+    margin-bottom: 55px;
+    .lnr {
+      font-size: 60px;
+    }
+    .lnr-license {
+      color: $blue;
+    }
+    .lnr-magic-wand {
+      color: #7f4ec2;
+    }
+    .lnr-lock {
+      color: #77de51;
+    }
+    .lnr-chart-bars {
+      color: #feb71d;
+    }
+    .lnr-leaf {
+      color: #79d4ed;
+    }
+    .lnr-phone {
+      color: #ff6a6d;
+    }
+  }
+
+  &__item-title {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 25px;
+  }
+
+  &__item-text {
+    line-height: 30px;
+  }
+}
+
+// end header...........................
+
+//start header..........................
+// end header...........................
+
+//start header..........................
+// end header...........................
+
+//start header..........................
+// end header...........................
+
+//start header..........................
 // end header...........................
