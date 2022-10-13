@@ -690,8 +690,69 @@
 
 // end products...........................
 
-//start header..........................
-// end header...........................
+//start info..........................
+
+.amounts {
+  padding: 100px 0;
+  background-color: #212225;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    max-width: 150px;
+    text-align: center;
+    .lnr {
+      font-size: 48px;
+    }
+    .lnr-briefcase {
+      color: #feb71d;
+    }
+    .lnr-cloud-download {
+      color: #58c9e9;
+    }
+    .lnr-smile {
+      color: #77de51;
+    }
+    .lnr-users {
+      color: #ff6a6d;
+    }
+  }
+
+  &__item-icon {
+    margin-bottom: 50px;
+  }
+
+  &__item-number {
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+
+  &__item-text {
+    font-size: 18px;
+    line-height: 36px;
+    color: #fff;
+  }
+
+  .amounts__items {
+    color: #feb71d;
+  }
+
+  .amounts__total {
+    color: #58c9e9;
+  }
+
+  .amounts__happy {
+    color: #77de51;
+  }
+
+  .amounts__members {
+    color: #ff6a6d;
+  }
+}
+
+// end info...........................
 
 //start header..........................
 // end header...........................
