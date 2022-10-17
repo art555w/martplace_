@@ -8,7 +8,11 @@ const imagemin = require('gulp-imagemin')
 const del = require('del')
 
 function styles() {
-  return src('app/scss/**/*.scss')
+  return src([
+    'app/scss/**/*.scss',
+    'app/css/jquery.rateyo.css',
+    'node_modules/ion-rangeslider/css/ion.rangeSlider.min.css',
+  ])
     .pipe(scss({ outputStyle: 'compressed' }))
     .pipe(concat('style.min.css'))
     .pipe(
@@ -25,8 +29,10 @@ function cleanDist() {
 function scripts() {
   return src([
     'node_modules/jquery/dist/jquery.js',
+    'app/js/jquery.rateyo.js',
     'node_modules/slick-carousel/slick/slick.js',
     'node_modules/mixitup/dist/mixitup.js',
+    'node_modules/ion-rangeslider/js/ion.rangeSlider.js',
     'app/js/app.js',
   ])
     .pipe(concat('app.min.js'))
